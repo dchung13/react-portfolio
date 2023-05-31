@@ -1,47 +1,45 @@
-import poppursuit from '../images/pop-pursuit-screenshot.png'
-import meloRE from '../images/meloRe.gif'
-import employeedb from '../images/application-screenshot.png'
+import React from 'react';
 
 function Project() {
 
     const projects = [
         {
             name: 'Pop Pursuit',
-            image: poppursuit,
+            image: './images/pop-pursuit-screenshot.png',
             description: 'Pop Pursuit is a population guessing game that gives the user a random city and allows the user to guess the population of that city.',
             link: 'https://eschindev.github.io/population-guesser/'
         },
         {
             name: 'MeloRE:',
-            image: meloRE,
+            image: './images/meloRe.gif',
             description: 'MeloRE: is an application that links to a user\'s Spotify account and imports their playlists. The application then returns stats on the playlist and individual songs regarding their overall tone, valence, etc.',
             link: 'https://melore.herokuapp.com/'
         },
         {
             name: 'Employee Database Tracker',
-            image: employeedb,
+            image: './images/application-screenshot.png',
             description: 'This application allows the user to view and manage the departments, roles, and employees in their company so that they can organize and plan their business.',
             link: 'placeholder'
         },
         {
             name: 'TBD',
-            image: 'placeholder',
+            image: './images/placeholder.png',
             description: 'TBD',
-            link: 'placeholder'
+            link: '#'
         },
         {
             
             name: 'TBD',
-            image: 'placeholder',
+            image:'./images/placeholder.png',
             description: 'TBD',
-            link: 'placeholder'
+            link: '#'
         },
         {
             
             name: 'TBD',
-            image: 'placeholder',
+            image: './images/placeholder.png',
             description: 'TBD',
-            link: 'placeholder'
+            link: '#'
         }
     ]
 
