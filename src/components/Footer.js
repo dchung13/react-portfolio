@@ -1,9 +1,13 @@
-import React, { useState } from 'react';
+import React from 'react';
 
-function Footer(props) {
+function Footer() {
     return (
         <footer>
-            <p>Footer</p>
+           <ul>
+            <li><a href="https://github.com/dchung13/">Github</a></li>
+            <li><a href="https://linkedin.com/dchung13/">LinkedIn</a></li>
+            <li><a href="https://medium.com/@dchung20315">Medium</a></li>
+           </ul>
         </footer>
     );
 }
